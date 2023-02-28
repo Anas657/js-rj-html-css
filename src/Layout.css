@@ -1,0 +1,46 @@
+.main{
+border: solid 2px red;
+
+}
+.Header{
+border: solid 2px blue;
+height: 50px;
+
+
+}
+
+.content_area{
+border: solid 5px green;
+display: flex;
+align-items: center;
+
+}
+
+.content_area
+> div{
+border: solid 7px green;
+height: 100vh;
+padding-left: 10px;
+
+
+}
+
+.sidebar{
+border: solid 2px purple;
+width: 150px;
+background: rgb(189, 49, 49);
+color: #fff;
+flex: 0 0 250px;
+}
+
+.Right_Content{
+
+border: solid 2px brown;
+
+}
+
+.footer{
+
+border: solid 2px orange;
+
+}
